@@ -10,7 +10,7 @@ export default async function MovieContainer({movie}) {
 
   return (<div>
      <FeaturedMovie movie={movie} isCompact={false}></FeaturedMovie>
-     <VideoContainer videos={videos}></VideoContainer>
+     <VideoContainer videos={videos} ></VideoContainer>
      </div>
   )
 }
